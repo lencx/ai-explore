@@ -1,0 +1,11 @@
+[project]
+name = "ai-explore"
+version = "0.1.0"
+description = "A code collection for learning and exploration."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "google-genai>=1.5.0",
+    "load-dotenv>=0.1.0",
+    "pillow>=11.1.0",
+]
