@@ -44,3 +44,7 @@ python gemini/chat.py
 # You can also run other scripts like:
 # python gemini/img2gif.py
 ```
+
+## Live Demo
+
+- [img2gif](https://x.com/lencx_/status/1900581662771294398)
