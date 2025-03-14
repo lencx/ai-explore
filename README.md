@@ -1,6 +1,7 @@
-# AI Explore
-
-A code collection for learning and exploration.
+<h1 align="center">AI Explore</h1>
+<p align="center">
+🤯 A code collection for learning and exploration.
+</p>
 
 ## Quick start
 
@@ -13,14 +14,16 @@ A code collection for learning and exploration.
 
 ### Run Repo
 
-Step 1: Clone the repository
+**Step 1**: Clone the repository
 
 ```bash
 git clone https://github.com/lencx/ai-explore.git
 cd ai-explore
 ```
 
-Step 2: Sync and Activate a Virtual Environment
+**Step 2**: Copy `.env.example` to `.env`, and then set your API Key (e.g., `GEMINI_API_KEY`) in the `.env` file.
+
+**Step 3**: Sync and activate a virtual environment
 
 ```bash
 uv sync
@@ -32,8 +35,11 @@ source .venv/bin/activate
 .venv\Scripts\activate
 ```
 
-Step 3: Run the script
+**Step 4**: Run the script
 
 ```bash
 python gemini/chat.py
+
+# You can also run other scripts like:
+# python gemini/another_script.py
 ```
