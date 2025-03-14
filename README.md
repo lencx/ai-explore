@@ -9,6 +9,7 @@
 
 - [uv](https://github.com/astral-sh/uv)
 - [Python 3.11](https://www.python.org)
+- [ffmpeg](https://ffmpeg.org)
 - API Key:
   - [Gemini API Key](https://aistudio.google.com/apikey)
 
@@ -41,5 +42,5 @@ source .venv/bin/activate
 python gemini/chat.py
 
 # You can also run other scripts like:
-# python gemini/another_script.py
+# python gemini/img2gif.py
 ```
